@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+  color: rebeccapurple;
+  background-color: yellowgreen;
+  height: 600px;
+  width: 800px;
+  padding: 20px;
+  margin: 20px;
+  border-color: blueviolet;
+  justify-content: center;
+  border: 5px solid blueviolet;
+
+  flex-wrap: wrap;
+  
+}
+.item {
+  color: antiquewhite;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+  width: 500px;
+  background-color: goldenrod;
+  border-color: red;
+  border: 5px solid blueviolet;
+  padding: 20px;
+  margin: 20px;
+  flex: 0 1 0;
+
+}
+#item1{
+    flex-grow: 1;
+}
+
